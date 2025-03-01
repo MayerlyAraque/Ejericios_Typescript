@@ -1,8 +1,5 @@
 function esMayorDeEdad(edad) {
-    if (edad >= 18) {
-        console.log("Es mayor de edad.");
-    }
-    else {
-        console.log("Es menor de edad.");
-    }
+    return edad >= 18;
 }
+console.log(esMayorDeEdad(20)); // true
+console.log(esMayorDeEdad(15)); // false

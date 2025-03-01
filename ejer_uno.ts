@@ -1,5 +1,4 @@
-let nombre: string = "Mayerly";
-let edad: number = 21;
-let mensaje: string = `Hola, mi nombre es ${nombre} y tengo ${edad} años. `;
-
+var nombre = "Mayerly Araque";
+var edad = 21;
+var mensaje = `Hola, mi nonbre es ${nombre} y tengo ${edad} años.`;
 console.log(mensaje);
